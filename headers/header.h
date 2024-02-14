@@ -39,7 +39,7 @@
 typedef uint32_t color_t;
 
 /* Process Input */
-void handleInput(void);
+void handle_input(void);
 extern bool GameRunning;
 
 /* Functions-variables-structs for draw */
@@ -54,7 +54,7 @@ void drawRect(int x, int y, int width, int height, color_t color);
 void drawLine(int x0, int y0, int x1, int y1, color_t color);
 
 /* Functions-variables-structs for map */
-bool DetectCollision(float x, float y);
+bool Detect_Collision(float x, float y);
 bool isInsideMap(float x, float y);
 void renderMap(void);
 int getMapValue(int row, int col);
